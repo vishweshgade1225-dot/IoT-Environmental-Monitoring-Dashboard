@@ -6,7 +6,7 @@ A cloud-integrated environmental monitoring system built using Python, Streamlit
 
 
 
-\## 📌 Project Overview
+\# 📌 Project Overview
 
 
 
@@ -18,25 +18,25 @@ The system uses AWS services for automated data generation, cloud storage, and A
 
 
 
-\## 🚀 Features
+\# 🚀 Features
 
 
 
-\- 📊 \*\*Overview:\*\* Environmental metrics and monitoring summary
+\- 📊 Overview: Environmental metrics and monitoring summary
 
-\- 📈 \*\*Sensor Analytics:\*\* Interactive charts and sensor trends
+\- 📈 Sensor Analytics: Interactive charts and sensor trends
 
-\- 🚨 \*\*Environmental Alerts:\*\* Warning and critical threshold detection
+\- 🚨 Environmental Alerts: Warning and critical threshold detection
 
-\- ☁️ \*\*Cloud Status:\*\* AWS integration and connectivity information
+\- ☁️ Cloud Status: AWS integration and connectivity information
 
-\- 📋 \*\*Sensor History:\*\* Historical readings, date filtering, and CSV export
+\- 📋 Sensor History: Historical readings, date filtering, and CSV export
 
-\- 🔄 \*\*Data Refresh:\*\* Manual refresh and automatic refresh options
+\- 🔄 Data Refresh: Manual refresh and automatic refresh options
 
 
 
-\## 🛠️ Technologies Used
+\# 🛠️ Technologies Used
 
 
 
@@ -64,7 +64,7 @@ The system uses AWS services for automated data generation, cloud storage, and A
 
 
 
-\## 🏗️ System Architecture
+\# 🏗️ System Architecture
 
 
 
@@ -118,7 +118,7 @@ Charts | Alerts | Sensor History
 
 
 
-\## 📊 Environmental Parameters
+\# 📊 Environmental Parameters
 
 
 
@@ -140,7 +140,7 @@ The project uses simulated sensor measurements for demonstration and testing pur
 
 
 
-\## ⚙️ Installation
+\# ⚙️ Installation
 
 
 
@@ -190,7 +190,7 @@ Open the local dashboard:
 
 
 
-\## ☁️ AWS Integration
+\# ☁️ AWS Integration
 
 
 
@@ -210,11 +210,11 @@ The Streamlit dashboard uses the API to display environmental metrics and histor
 
 
 
-\*\*Note:\*\* AWS Academy lab resources are temporary. Live cloud functionality depends on the availability of the configured AWS environment.
+Note: AWS Academy lab resources are temporary. Live cloud functionality depends on the availability of the configured AWS environment.
 
 
 
-\## 🚀 Deployment
+\# 🚀 Deployment
 
 
 
@@ -222,11 +222,11 @@ The dashboard is intended for deployment using Streamlit Community Cloud.
 
 
 
-\*\*Live Dashboard:\*\* Coming soon.
+Live Dashboard: Coming soon.
 
 
 
-\## 🔮 Future Enhancements
+\# 🔮 Future Enhancements:
 
 
 

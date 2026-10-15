@@ -2,7 +2,7 @@
 
 
 
-A cloud-integrated environmental monitoring system built using \*\*Python, Streamlit, and AWS\*\*. The project simulates IoT sensor readings, stores environmental data in the cloud, and visualizes measurements through an interactive web dashboard.
+A cloud-integrated environmental monitoring system built using Python, Streamlit, and AWS. The project simulates IoT sensor readings, stores environmental data in the cloud, and visualizes measurements through an interactive web dashboard.
 
 
 

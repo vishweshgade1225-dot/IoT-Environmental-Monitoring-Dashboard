@@ -1,0 +1,47 @@
+{
+    "Items": [
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "humidity": {
+                "N": "59.52"
+            },
+            "air_quality": {
+                "N": "65"
+            },
+            "co2": {
+                "N": "895"
+            },
+            "temperature": {
+                "N": "32"
+            },
+            "timestamp": {
+                "S": "2026-10-13T17:30:00Z"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "humidity": {
+                "N": "76.95"
+            },
+            "air_quality": {
+                "N": "74"
+            },
+            "co2": {
+                "N": "1092"
+            },
+            "temperature": {
+                "N": "31.98"
+            },
+            "timestamp": {
+                "S": "2026-10-13T17:41:28.233918+00:00"
+            }
+        }
+    ],
+    "Count": 2,
+    "ScannedCount": 2,
+    "ConsumedCapacity": null
+}

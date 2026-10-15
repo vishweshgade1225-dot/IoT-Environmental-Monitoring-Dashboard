@@ -914,36 +914,40 @@ elif page == "📋 Sensor History":
         )
     ]
 
+    
     # Date range filter
     if not filtered_df.empty:
         filtered_df = filtered_df.copy()
 
-    filtered_df["timestamp"] = pd.to_datetime(
-        filtered_df["timestamp"],
-        utc=True,
-        errors="coerce"
-    )
-
-    filtered_df = filtered_df.dropna(subset=["timestamp"])
-
-    if not filtered_df.empty:
-        min_date = filtered_df["timestamp"].min().date()
-        max_date = filtered_df["timestamp"].max().date()
-
-        selected_dates = st.date_input(
-            "📅 Filter by date range (UTC)",
-            value=(min_date, max_date),
-            min_value=min_date,
-            max_value=max_date
+        filtered_df["timestamp"] = pd.to_datetime(
+            filtered_df["timestamp"],
+            utc=True,
+            errors="coerce"
         )
 
-        if len(selected_dates) == 2:
-            start_date, end_date = selected_dates
+        filtered_df = filtered_df.dropna(subset=["timestamp"])
 
-            filtered_df = filtered_df[
-                (filtered_df["timestamp"].dt.date >= start_date)
-                & (filtered_df["timestamp"].dt.date <= end_date)
-            ]
+        if not filtered_df.empty:
+            min_date = filtered_df["timestamp"].min().date()
+            max_date = filtered_df["timestamp"].max().date()
+
+            st.caption(
+                f"Available sensor data: {min_date} to {max_date} (UTC)"
+            )
+
+            selected_dates = st.date_input(
+                "📅 Filter by date range (UTC)",
+                value=(min_date, max_date),
+                key="sensor_history_date_range"
+            )
+
+            if len(selected_dates) == 2:
+                start_date, end_date = selected_dates
+
+                filtered_df = filtered_df[
+                    (filtered_df["timestamp"].dt.date >= start_date)
+                    & (filtered_df["timestamp"].dt.date <= end_date)
+                ]
 
     st.dataframe(
         filtered_df,
@@ -951,21 +955,16 @@ elif page == "📋 Sensor History":
         hide_index=True
     )
 
-    st.download_button(
-    label="📥 Download Sensor Data (CSV)",
-    data=filtered_df.to_csv(index=False).encode("utf-8"),
-    file_name="iot_environmental_sensor_data.csv",
-    mime="text/csv",
-    use_container_width=True
-    )
     csv_data = filtered_df.to_csv(index=False)
 
     st.download_button(
-        "⬇️ Download Sensor Data (CSV)",
+        label="📥 Download Sensor Data (CSV)",
         data=csv_data,
-        file_name="aws_iot_sensor_data.csv",
-        mime="text/csv"
+        file_name="iot_environmental_sensor_data.csv",
+        mime="text/csv",
+        use_container_width=True
     )
+
 
 
 # ==========================================================

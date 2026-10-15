@@ -1,4 +1,5 @@
-
+import json
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -142,6 +143,44 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# ==========================================
+# DEMO DATA LOADER
+# ==========================================
+
+def load_demo_data():
+    import json
+    from pathlib import Path
+
+    file_path = Path(__file__).resolve().parent / "sensor_data.json"
+
+    with open(file_path, "r", encoding="utf-8") as file:
+        payload = json.load(file)
+
+    records = []
+
+    for item in payload.get("Items", []):
+        records.append({
+            "device_id": item["device_id"]["S"],
+            "timestamp": item["timestamp"]["S"],
+            "temperature": float(item["temperature"]["N"]),
+            "humidity": float(item["humidity"]["N"]),
+            "air_quality": float(item["air_quality"]["N"]),
+            "co2": float(item["co2"]["N"])
+        })
+
+    df = pd.DataFrame(records)
+
+    if not df.empty:
+        df["timestamp"] = pd.to_datetime(
+            df["timestamp"],
+            utc=True,
+            format="ISO8601"
+        )
+
+        df = df.sort_values("timestamp")
+
+    return df
+
 
 # ==========================================================
 # AWS API DATA FETCHING
@@ -149,62 +188,70 @@ st.markdown("""
 
 @st.cache_data(ttl=30, show_spinner=False)
 def fetch_sensor_data():
-    response = requests.get(API_URL, timeout=10)
-    response.raise_for_status()
+    try:
+        response = requests.get(API_URL, timeout=10)
+        response.raise_for_status()
 
-    payload = response.json()
-    records = payload.get("data", [])
+        payload = response.json()
+        records = payload.get("data", [])
 
-    df = pd.DataFrame(records)
+        df = pd.DataFrame(records)
 
-    if df.empty:
-        return df
+        if df.empty:
+            raise ValueError("AWS returned no sensor data")
 
-    required_columns = [
-        "device_id",
-        "timestamp",
-        "temperature",
-        "humidity",
-        "air_quality",
-        "co2"
-    ]
+        required_columns = [
+            "device_id",
+            "timestamp",
+            "temperature",
+            "humidity",
+            "air_quality",
+            "co2"
+        ]
 
-    missing = [
-        col for col in required_columns
-        if col not in df.columns
-    ]
+        missing = [
+            col for col in required_columns
+            if col not in df.columns
+        ]
 
-    if missing:
-        raise ValueError(
-            f"Missing API fields: {', '.join(missing)}"
+        if missing:
+            raise ValueError(
+                f"Missing API fields: {', '.join(missing)}"
+            )
+
+        numeric_columns = [
+            "temperature",
+            "humidity",
+            "air_quality",
+            "co2"
+        ]
+
+        for column in numeric_columns:
+            df[column] = pd.to_numeric(
+                df[column],
+                errors="coerce"
+            )
+
+        df["timestamp"] = pd.to_datetime(
+            df["timestamp"],
+            format="ISO8601",
+            utc=True,
+            errors="coerce"
         )
 
-    numeric_columns = [
-        "temperature",
-        "humidity",
-        "air_quality",
-        "co2"
-    ]
-
-    for column in numeric_columns:
-        df[column] = pd.to_numeric(
-            df[column], errors="coerce"
+        df = df.dropna(
+            subset=["timestamp"] + numeric_columns
         )
 
-    df["timestamp"] = pd.to_datetime(
-        df["timestamp"],
-        format="ISO8601",
-        utc=True,
-        errors="coerce"
-    )
+        if df.empty:
+            raise ValueError("No valid AWS sensor readings")
 
-    df = df.dropna(
-        subset=["timestamp"] + numeric_columns
-    )
+        df = df.sort_values("timestamp")
 
-    df = df.sort_values("timestamp")
+        return df, "LIVE"
 
-    return df
+    except (requests.RequestException, ValueError, KeyError, TypeError):
+        return load_demo_data(), "DEMO"
 
 
 # ==========================================================
@@ -302,13 +349,14 @@ with st.sidebar:
     st.divider()
 
     st.caption("Cloud Infrastructure")
-    st.markdown("🟢 AWS API Gateway")
-    st.markdown("🟢 AWS Lambda")
-    st.markdown("🟢 AWS DynamoDB")
+
+    st.markdown("☁️ AWS API Gateway")
+    st.markdown("⚡ AWS Lambda")
+    st.markdown("🗄️ AWS DynamoDB")
 
     st.caption(
-        "Service names shown above. Live connectivity "
-        "is verified through the API request."
+        "Configured AWS services. Connection status "
+        "is displayed in the main dashboard."
     )
 
     st.divider()
@@ -341,22 +389,29 @@ if auto_refresh:
 # ==========================================================
 # FETCH LIVE CLOUD API RESPONSE
 # ==========================================================
-
 fetch_time = datetime.now(timezone.utc)
 
 try:
-    with st.spinner("Connecting to AWS Cloud API..."):
-        df = fetch_sensor_data()
+    with st.spinner("Loading environmental sensor data..."):
+        df, data_mode = fetch_sensor_data()
 
     if df.empty:
-        st.warning("No valid sensor readings returned by AWS.")
+        st.warning("No valid sensor readings available.")
         st.stop()
 
-    api_connected = True
+    api_connected = (data_mode == "LIVE")
+
+    if api_connected:
+        st.success("🟢 LIVE AWS MODE — Connected to AWS Cloud API")
+    else:
+        st.warning(
+            "🟡 DEMO MODE — Displaying simulated historical sensor "
+            "readings. AWS Cloud API is unavailable."
+        )
 
 except Exception as e:
     api_connected = False
-    st.error("Unable to retrieve AWS sensor data.")
+    st.error("Unable to load environmental sensor data.")
     st.code(str(e))
     st.stop()
 
@@ -388,7 +443,10 @@ st.markdown("""
 header_left, header_right = st.columns([3, 1])
 
 with header_left:
-    st.success("● AWS Cloud API Connected")
+        if api_connected:
+            st.success("🟢 AWS Cloud API Connected")
+        else:
+            st.warning("🟡 Demo Data Active — AWS API Offline")
 
 with header_right:
     st.caption(
@@ -787,7 +845,13 @@ elif page == "☁️ Cloud Status":
 
     st.subheader("☁️ AWS Cloud Infrastructure")
 
-    st.success("AWS API Gateway endpoint is reachable.")
+    if api_connected:
+        st.success("🟢 AWS API Gateway endpoint is reachable.")
+    else:
+        st.warning(
+            "🟡 AWS API Gateway is unavailable. "
+            "The dashboard is using simulated historical data."
+        )
 
     st.markdown("""
     <div class="info-panel">
@@ -813,11 +877,17 @@ elif page == "☁️ Cloud Status":
         str(latest["timestamp"])
     )
 
-    st.info(
-        "The API request succeeded. This confirms "
-        "the endpoint is responding, but does not "
-        "independently verify each AWS service."
-    )
+    if api_connected:
+        st.info(
+            "The AWS API request succeeded. This confirms "
+            "the endpoint is responding, but does not "
+            "independently verify each AWS service."
+        )
+    else:
+        st.info(
+            "Demo Mode is active. Sensor readings are loaded "
+            "from the local JSON file, not from AWS."
+        )
 
 
 # ==========================================================

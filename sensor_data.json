@@ -4,44 +4,2403 @@
             "device_id": {
                 "S": "IoT_Sensor_001"
             },
-            "humidity": {
-                "N": "59.52"
-            },
-            "air_quality": {
-                "N": "65"
-            },
-            "co2": {
-                "N": "895"
+            "timestamp": {
+                "S": "2026-10-14T08:00:00+00:00"
             },
             "temperature": {
-                "N": "32"
+                "N": "32.87"
             },
-            "timestamp": {
-                "S": "2026-10-13T17:30:00Z"
+            "humidity": {
+                "N": "36.18"
+            },
+            "air_quality": {
+                "N": "105"
+            },
+            "co2": {
+                "N": "750"
             }
         },
         {
             "device_id": {
                 "S": "IoT_Sensor_001"
             },
+            "timestamp": {
+                "S": "2026-10-14T08:01:00+00:00"
+            },
+            "temperature": {
+                "N": "25.79"
+            },
             "humidity": {
-                "N": "76.95"
+                "N": "69.61"
             },
             "air_quality": {
-                "N": "74"
+                "N": "57"
+            },
+            "co2": {
+                "N": "1104"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:02:00+00:00"
+            },
+            "temperature": {
+                "N": "29.17"
+            },
+            "humidity": {
+                "N": "36.4"
+            },
+            "air_quality": {
+                "N": "90"
+            },
+            "co2": {
+                "N": "738"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:03:00+00:00"
+            },
+            "temperature": {
+                "N": "30.59"
+            },
+            "humidity": {
+                "N": "36.25"
+            },
+            "air_quality": {
+                "N": "85"
+            },
+            "co2": {
+                "N": "1233"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:04:00+00:00"
+            },
+            "temperature": {
+                "N": "33.05"
+            },
+            "humidity": {
+                "N": "60.61"
+            },
+            "air_quality": {
+                "N": "91"
+            },
+            "co2": {
+                "N": "959"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:05:00+00:00"
+            },
+            "temperature": {
+                "N": "32.02"
+            },
+            "humidity": {
+                "N": "73.04"
+            },
+            "air_quality": {
+                "N": "36"
+            },
+            "co2": {
+                "N": "1277"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:06:00+00:00"
+            },
+            "temperature": {
+                "N": "35.7"
+            },
+            "humidity": {
+                "N": "67.81"
+            },
+            "air_quality": {
+                "N": "122"
+            },
+            "co2": {
+                "N": "784"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:07:00+00:00"
+            },
+            "temperature": {
+                "N": "24.64"
+            },
+            "humidity": {
+                "N": "79.99"
+            },
+            "air_quality": {
+                "N": "121"
+            },
+            "co2": {
+                "N": "604"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:08:00+00:00"
+            },
+            "temperature": {
+                "N": "23.58"
+            },
+            "humidity": {
+                "N": "39.55"
+            },
+            "air_quality": {
+                "N": "123"
+            },
+            "co2": {
+                "N": "1118"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:09:00+00:00"
+            },
+            "temperature": {
+                "N": "26.5"
+            },
+            "humidity": {
+                "N": "37.04"
+            },
+            "air_quality": {
+                "N": "152"
+            },
+            "co2": {
+                "N": "1049"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:10:00+00:00"
+            },
+            "temperature": {
+                "N": "24.12"
+            },
+            "humidity": {
+                "N": "78.35"
+            },
+            "air_quality": {
+                "N": "55"
+            },
+            "co2": {
+                "N": "1065"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:11:00+00:00"
+            },
+            "temperature": {
+                "N": "26.98"
+            },
+            "humidity": {
+                "N": "64.55"
+            },
+            "air_quality": {
+                "N": "127"
+            },
+            "co2": {
+                "N": "1091"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:12:00+00:00"
+            },
+            "temperature": {
+                "N": "25.27"
+            },
+            "humidity": {
+                "N": "38.27"
+            },
+            "air_quality": {
+                "N": "93"
+            },
+            "co2": {
+                "N": "1291"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:13:00+00:00"
+            },
+            "temperature": {
+                "N": "26.92"
+            },
+            "humidity": {
+                "N": "38.75"
+            },
+            "air_quality": {
+                "N": "94"
+            },
+            "co2": {
+                "N": "1387"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:14:00+00:00"
+            },
+            "temperature": {
+                "N": "23.72"
+            },
+            "humidity": {
+                "N": "48.06"
+            },
+            "air_quality": {
+                "N": "128"
+            },
+            "co2": {
+                "N": "666"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:15:00+00:00"
+            },
+            "temperature": {
+                "N": "28.29"
+            },
+            "humidity": {
+                "N": "44.85"
+            },
+            "air_quality": {
+                "N": "103"
+            },
+            "co2": {
+                "N": "1218"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:16:00+00:00"
+            },
+            "temperature": {
+                "N": "37.92"
+            },
+            "humidity": {
+                "N": "65.46"
+            },
+            "air_quality": {
+                "N": "78"
+            },
+            "co2": {
+                "N": "1046"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:17:00+00:00"
+            },
+            "temperature": {
+                "N": "34.4"
+            },
+            "humidity": {
+                "N": "42.68"
+            },
+            "air_quality": {
+                "N": "132"
+            },
+            "co2": {
+                "N": "776"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:18:00+00:00"
+            },
+            "temperature": {
+                "N": "38.82"
+            },
+            "humidity": {
+                "N": "65.08"
+            },
+            "air_quality": {
+                "N": "91"
+            },
+            "co2": {
+                "N": "1201"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:19:00+00:00"
+            },
+            "temperature": {
+                "N": "27.51"
+            },
+            "humidity": {
+                "N": "71.11"
+            },
+            "air_quality": {
+                "N": "49"
+            },
+            "co2": {
+                "N": "734"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:20:00+00:00"
+            },
+            "temperature": {
+                "N": "35.97"
+            },
+            "humidity": {
+                "N": "72.84"
+            },
+            "air_quality": {
+                "N": "137"
+            },
+            "co2": {
+                "N": "774"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:21:00+00:00"
+            },
+            "temperature": {
+                "N": "23.13"
+            },
+            "humidity": {
+                "N": "77.92"
+            },
+            "air_quality": {
+                "N": "115"
+            },
+            "co2": {
+                "N": "717"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:22:00+00:00"
+            },
+            "temperature": {
+                "N": "33.14"
+            },
+            "humidity": {
+                "N": "53.59"
+            },
+            "air_quality": {
+                "N": "152"
+            },
+            "co2": {
+                "N": "646"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:23:00+00:00"
+            },
+            "temperature": {
+                "N": "26.5"
+            },
+            "humidity": {
+                "N": "46.59"
+            },
+            "air_quality": {
+                "N": "102"
+            },
+            "co2": {
+                "N": "1264"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:24:00+00:00"
+            },
+            "temperature": {
+                "N": "31.94"
+            },
+            "humidity": {
+                "N": "77.2"
+            },
+            "air_quality": {
+                "N": "137"
+            },
+            "co2": {
+                "N": "870"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:25:00+00:00"
+            },
+            "temperature": {
+                "N": "25.73"
+            },
+            "humidity": {
+                "N": "81.88"
+            },
+            "air_quality": {
+                "N": "165"
+            },
+            "co2": {
+                "N": "1005"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:26:00+00:00"
+            },
+            "temperature": {
+                "N": "23.55"
+            },
+            "humidity": {
+                "N": "37.21"
+            },
+            "air_quality": {
+                "N": "63"
+            },
+            "co2": {
+                "N": "656"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:27:00+00:00"
+            },
+            "temperature": {
+                "N": "32.67"
+            },
+            "humidity": {
+                "N": "72.23"
+            },
+            "air_quality": {
+                "N": "143"
+            },
+            "co2": {
+                "N": "1110"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:28:00+00:00"
+            },
+            "temperature": {
+                "N": "23.08"
+            },
+            "humidity": {
+                "N": "52.94"
+            },
+            "air_quality": {
+                "N": "154"
+            },
+            "co2": {
+                "N": "1041"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:29:00+00:00"
+            },
+            "temperature": {
+                "N": "26.27"
+            },
+            "humidity": {
+                "N": "61.0"
+            },
+            "air_quality": {
+                "N": "37"
+            },
+            "co2": {
+                "N": "1196"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:30:00+00:00"
+            },
+            "temperature": {
+                "N": "34.25"
+            },
+            "humidity": {
+                "N": "67.04"
+            },
+            "air_quality": {
+                "N": "103"
+            },
+            "co2": {
+                "N": "1287"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:31:00+00:00"
+            },
+            "temperature": {
+                "N": "32.9"
+            },
+            "humidity": {
+                "N": "40.24"
+            },
+            "air_quality": {
+                "N": "146"
+            },
+            "co2": {
+                "N": "661"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:32:00+00:00"
+            },
+            "temperature": {
+                "N": "29.71"
+            },
+            "humidity": {
+                "N": "79.83"
+            },
+            "air_quality": {
+                "N": "102"
+            },
+            "co2": {
+                "N": "1012"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:33:00+00:00"
+            },
+            "temperature": {
+                "N": "34.95"
+            },
+            "humidity": {
+                "N": "58.86"
+            },
+            "air_quality": {
+                "N": "62"
+            },
+            "co2": {
+                "N": "1391"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:34:00+00:00"
+            },
+            "temperature": {
+                "N": "32.63"
+            },
+            "humidity": {
+                "N": "74.56"
+            },
+            "air_quality": {
+                "N": "164"
+            },
+            "co2": {
+                "N": "1123"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:35:00+00:00"
+            },
+            "temperature": {
+                "N": "25.38"
+            },
+            "humidity": {
+                "N": "52.57"
+            },
+            "air_quality": {
+                "N": "76"
+            },
+            "co2": {
+                "N": "1052"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:36:00+00:00"
+            },
+            "temperature": {
+                "N": "38.21"
+            },
+            "humidity": {
+                "N": "78.35"
+            },
+            "air_quality": {
+                "N": "35"
+            },
+            "co2": {
+                "N": "1113"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:37:00+00:00"
+            },
+            "temperature": {
+                "N": "27.51"
+            },
+            "humidity": {
+                "N": "35.92"
+            },
+            "air_quality": {
+                "N": "127"
+            },
+            "co2": {
+                "N": "1399"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:38:00+00:00"
+            },
+            "temperature": {
+                "N": "38.75"
+            },
+            "humidity": {
+                "N": "72.92"
+            },
+            "air_quality": {
+                "N": "96"
+            },
+            "co2": {
+                "N": "559"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:39:00+00:00"
+            },
+            "temperature": {
+                "N": "26.09"
+            },
+            "humidity": {
+                "N": "61.67"
+            },
+            "air_quality": {
+                "N": "55"
+            },
+            "co2": {
+                "N": "587"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:40:00+00:00"
+            },
+            "temperature": {
+                "N": "34.44"
+            },
+            "humidity": {
+                "N": "73.35"
+            },
+            "air_quality": {
+                "N": "67"
+            },
+            "co2": {
+                "N": "631"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:41:00+00:00"
+            },
+            "temperature": {
+                "N": "33.22"
+            },
+            "humidity": {
+                "N": "79.5"
+            },
+            "air_quality": {
+                "N": "77"
+            },
+            "co2": {
+                "N": "771"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:42:00+00:00"
+            },
+            "temperature": {
+                "N": "30.97"
+            },
+            "humidity": {
+                "N": "63.51"
+            },
+            "air_quality": {
+                "N": "89"
+            },
+            "co2": {
+                "N": "1052"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:43:00+00:00"
+            },
+            "temperature": {
+                "N": "34.84"
+            },
+            "humidity": {
+                "N": "67.42"
+            },
+            "air_quality": {
+                "N": "114"
+            },
+            "co2": {
+                "N": "908"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:44:00+00:00"
+            },
+            "temperature": {
+                "N": "38.92"
+            },
+            "humidity": {
+                "N": "65.54"
+            },
+            "air_quality": {
+                "N": "147"
+            },
+            "co2": {
+                "N": "1421"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:45:00+00:00"
+            },
+            "temperature": {
+                "N": "30.8"
+            },
+            "humidity": {
+                "N": "40.69"
+            },
+            "air_quality": {
+                "N": "92"
+            },
+            "co2": {
+                "N": "565"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:46:00+00:00"
+            },
+            "temperature": {
+                "N": "27.75"
+            },
+            "humidity": {
+                "N": "62.65"
+            },
+            "air_quality": {
+                "N": "93"
+            },
+            "co2": {
+                "N": "1102"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:47:00+00:00"
+            },
+            "temperature": {
+                "N": "25.74"
+            },
+            "humidity": {
+                "N": "38.34"
+            },
+            "air_quality": {
+                "N": "50"
+            },
+            "co2": {
+                "N": "734"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:48:00+00:00"
+            },
+            "temperature": {
+                "N": "23.15"
+            },
+            "humidity": {
+                "N": "36.48"
+            },
+            "air_quality": {
+                "N": "119"
+            },
+            "co2": {
+                "N": "572"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:49:00+00:00"
+            },
+            "temperature": {
+                "N": "30.74"
+            },
+            "humidity": {
+                "N": "48.09"
+            },
+            "air_quality": {
+                "N": "159"
+            },
+            "co2": {
+                "N": "719"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:50:00+00:00"
+            },
+            "temperature": {
+                "N": "31.17"
+            },
+            "humidity": {
+                "N": "69.0"
+            },
+            "air_quality": {
+                "N": "156"
+            },
+            "co2": {
+                "N": "748"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:51:00+00:00"
+            },
+            "temperature": {
+                "N": "35.34"
+            },
+            "humidity": {
+                "N": "72.95"
+            },
+            "air_quality": {
+                "N": "83"
+            },
+            "co2": {
+                "N": "596"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:52:00+00:00"
+            },
+            "temperature": {
+                "N": "23.65"
+            },
+            "humidity": {
+                "N": "55.26"
+            },
+            "air_quality": {
+                "N": "143"
+            },
+            "co2": {
+                "N": "920"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:53:00+00:00"
+            },
+            "temperature": {
+                "N": "29.94"
+            },
+            "humidity": {
+                "N": "69.27"
+            },
+            "air_quality": {
+                "N": "60"
+            },
+            "co2": {
+                "N": "562"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:54:00+00:00"
+            },
+            "temperature": {
+                "N": "28.84"
+            },
+            "humidity": {
+                "N": "50.95"
+            },
+            "air_quality": {
+                "N": "62"
+            },
+            "co2": {
+                "N": "754"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:55:00+00:00"
+            },
+            "temperature": {
+                "N": "25.26"
+            },
+            "humidity": {
+                "N": "60.21"
+            },
+            "air_quality": {
+                "N": "70"
+            },
+            "co2": {
+                "N": "932"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:56:00+00:00"
+            },
+            "temperature": {
+                "N": "25.12"
+            },
+            "humidity": {
+                "N": "56.74"
+            },
+            "air_quality": {
+                "N": "54"
+            },
+            "co2": {
+                "N": "953"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:57:00+00:00"
+            },
+            "temperature": {
+                "N": "35.74"
+            },
+            "humidity": {
+                "N": "75.23"
+            },
+            "air_quality": {
+                "N": "60"
+            },
+            "co2": {
+                "N": "551"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:58:00+00:00"
+            },
+            "temperature": {
+                "N": "33.09"
+            },
+            "humidity": {
+                "N": "60.41"
+            },
+            "air_quality": {
+                "N": "38"
+            },
+            "co2": {
+                "N": "595"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T08:59:00+00:00"
+            },
+            "temperature": {
+                "N": "37.75"
+            },
+            "humidity": {
+                "N": "74.89"
+            },
+            "air_quality": {
+                "N": "77"
+            },
+            "co2": {
+                "N": "916"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:00:00+00:00"
+            },
+            "temperature": {
+                "N": "30.26"
+            },
+            "humidity": {
+                "N": "45.05"
+            },
+            "air_quality": {
+                "N": "137"
+            },
+            "co2": {
+                "N": "1424"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:01:00+00:00"
+            },
+            "temperature": {
+                "N": "23.0"
+            },
+            "humidity": {
+                "N": "52.81"
+            },
+            "air_quality": {
+                "N": "134"
+            },
+            "co2": {
+                "N": "771"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:02:00+00:00"
+            },
+            "temperature": {
+                "N": "37.75"
+            },
+            "humidity": {
+                "N": "71.9"
+            },
+            "air_quality": {
+                "N": "108"
+            },
+            "co2": {
+                "N": "933"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:03:00+00:00"
+            },
+            "temperature": {
+                "N": "33.84"
+            },
+            "humidity": {
+                "N": "69.33"
+            },
+            "air_quality": {
+                "N": "159"
+            },
+            "co2": {
+                "N": "658"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:04:00+00:00"
+            },
+            "temperature": {
+                "N": "25.23"
+            },
+            "humidity": {
+                "N": "45.23"
+            },
+            "air_quality": {
+                "N": "49"
+            },
+            "co2": {
+                "N": "1093"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:05:00+00:00"
+            },
+            "temperature": {
+                "N": "34.51"
+            },
+            "humidity": {
+                "N": "37.87"
+            },
+            "air_quality": {
+                "N": "115"
+            },
+            "co2": {
+                "N": "558"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:06:00+00:00"
+            },
+            "temperature": {
+                "N": "22.85"
+            },
+            "humidity": {
+                "N": "57.41"
+            },
+            "air_quality": {
+                "N": "170"
+            },
+            "co2": {
+                "N": "661"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:07:00+00:00"
+            },
+            "temperature": {
+                "N": "22.97"
+            },
+            "humidity": {
+                "N": "58.87"
+            },
+            "air_quality": {
+                "N": "82"
+            },
+            "co2": {
+                "N": "570"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:08:00+00:00"
+            },
+            "temperature": {
+                "N": "32.12"
+            },
+            "humidity": {
+                "N": "66.73"
+            },
+            "air_quality": {
+                "N": "95"
+            },
+            "co2": {
+                "N": "913"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:09:00+00:00"
+            },
+            "temperature": {
+                "N": "24.04"
+            },
+            "humidity": {
+                "N": "76.84"
+            },
+            "air_quality": {
+                "N": "98"
             },
             "co2": {
                 "N": "1092"
-            },
-            "temperature": {
-                "N": "31.98"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
             },
             "timestamp": {
-                "S": "2026-10-13T17:41:28.233918+00:00"
+                "S": "2026-10-14T09:10:00+00:00"
+            },
+            "temperature": {
+                "N": "32.11"
+            },
+            "humidity": {
+                "N": "64.11"
+            },
+            "air_quality": {
+                "N": "142"
+            },
+            "co2": {
+                "N": "1173"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:11:00+00:00"
+            },
+            "temperature": {
+                "N": "31.92"
+            },
+            "humidity": {
+                "N": "59.57"
+            },
+            "air_quality": {
+                "N": "101"
+            },
+            "co2": {
+                "N": "709"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:12:00+00:00"
+            },
+            "temperature": {
+                "N": "33.39"
+            },
+            "humidity": {
+                "N": "49.77"
+            },
+            "air_quality": {
+                "N": "102"
+            },
+            "co2": {
+                "N": "905"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:13:00+00:00"
+            },
+            "temperature": {
+                "N": "24.22"
+            },
+            "humidity": {
+                "N": "65.34"
+            },
+            "air_quality": {
+                "N": "152"
+            },
+            "co2": {
+                "N": "823"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:14:00+00:00"
+            },
+            "temperature": {
+                "N": "37.79"
+            },
+            "humidity": {
+                "N": "78.98"
+            },
+            "air_quality": {
+                "N": "37"
+            },
+            "co2": {
+                "N": "969"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:15:00+00:00"
+            },
+            "temperature": {
+                "N": "32.56"
+            },
+            "humidity": {
+                "N": "61.46"
+            },
+            "air_quality": {
+                "N": "60"
+            },
+            "co2": {
+                "N": "575"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:16:00+00:00"
+            },
+            "temperature": {
+                "N": "31.14"
+            },
+            "humidity": {
+                "N": "58.78"
+            },
+            "air_quality": {
+                "N": "68"
+            },
+            "co2": {
+                "N": "857"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:17:00+00:00"
+            },
+            "temperature": {
+                "N": "36.97"
+            },
+            "humidity": {
+                "N": "76.33"
+            },
+            "air_quality": {
+                "N": "129"
+            },
+            "co2": {
+                "N": "791"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:18:00+00:00"
+            },
+            "temperature": {
+                "N": "24.68"
+            },
+            "humidity": {
+                "N": "74.19"
+            },
+            "air_quality": {
+                "N": "112"
+            },
+            "co2": {
+                "N": "1126"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:19:00+00:00"
+            },
+            "temperature": {
+                "N": "38.73"
+            },
+            "humidity": {
+                "N": "72.93"
+            },
+            "air_quality": {
+                "N": "170"
+            },
+            "co2": {
+                "N": "508"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:20:00+00:00"
+            },
+            "temperature": {
+                "N": "33.35"
+            },
+            "humidity": {
+                "N": "61.07"
+            },
+            "air_quality": {
+                "N": "61"
+            },
+            "co2": {
+                "N": "1399"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:21:00+00:00"
+            },
+            "temperature": {
+                "N": "24.28"
+            },
+            "humidity": {
+                "N": "40.43"
+            },
+            "air_quality": {
+                "N": "62"
+            },
+            "co2": {
+                "N": "1260"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:22:00+00:00"
+            },
+            "temperature": {
+                "N": "31.4"
+            },
+            "humidity": {
+                "N": "47.8"
+            },
+            "air_quality": {
+                "N": "88"
+            },
+            "co2": {
+                "N": "1234"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:23:00+00:00"
+            },
+            "temperature": {
+                "N": "27.83"
+            },
+            "humidity": {
+                "N": "67.31"
+            },
+            "air_quality": {
+                "N": "102"
+            },
+            "co2": {
+                "N": "1017"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:24:00+00:00"
+            },
+            "temperature": {
+                "N": "30.31"
+            },
+            "humidity": {
+                "N": "77.55"
+            },
+            "air_quality": {
+                "N": "48"
+            },
+            "co2": {
+                "N": "594"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:25:00+00:00"
+            },
+            "temperature": {
+                "N": "32.78"
+            },
+            "humidity": {
+                "N": "73.98"
+            },
+            "air_quality": {
+                "N": "46"
+            },
+            "co2": {
+                "N": "503"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:26:00+00:00"
+            },
+            "temperature": {
+                "N": "27.67"
+            },
+            "humidity": {
+                "N": "41.15"
+            },
+            "air_quality": {
+                "N": "102"
+            },
+            "co2": {
+                "N": "665"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:27:00+00:00"
+            },
+            "temperature": {
+                "N": "34.6"
+            },
+            "humidity": {
+                "N": "60.93"
+            },
+            "air_quality": {
+                "N": "144"
+            },
+            "co2": {
+                "N": "1074"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:28:00+00:00"
+            },
+            "temperature": {
+                "N": "22.16"
+            },
+            "humidity": {
+                "N": "38.54"
+            },
+            "air_quality": {
+                "N": "73"
+            },
+            "co2": {
+                "N": "1058"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:29:00+00:00"
+            },
+            "temperature": {
+                "N": "22.61"
+            },
+            "humidity": {
+                "N": "52.35"
+            },
+            "air_quality": {
+                "N": "72"
+            },
+            "co2": {
+                "N": "940"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:30:00+00:00"
+            },
+            "temperature": {
+                "N": "24.17"
+            },
+            "humidity": {
+                "N": "49.49"
+            },
+            "air_quality": {
+                "N": "45"
+            },
+            "co2": {
+                "N": "1420"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:31:00+00:00"
+            },
+            "temperature": {
+                "N": "28.08"
+            },
+            "humidity": {
+                "N": "67.06"
+            },
+            "air_quality": {
+                "N": "61"
+            },
+            "co2": {
+                "N": "862"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:32:00+00:00"
+            },
+            "temperature": {
+                "N": "35.26"
+            },
+            "humidity": {
+                "N": "76.55"
+            },
+            "air_quality": {
+                "N": "139"
+            },
+            "co2": {
+                "N": "1135"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:33:00+00:00"
+            },
+            "temperature": {
+                "N": "34.74"
+            },
+            "humidity": {
+                "N": "78.51"
+            },
+            "air_quality": {
+                "N": "95"
+            },
+            "co2": {
+                "N": "1385"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:34:00+00:00"
+            },
+            "temperature": {
+                "N": "24.76"
+            },
+            "humidity": {
+                "N": "72.59"
+            },
+            "air_quality": {
+                "N": "80"
+            },
+            "co2": {
+                "N": "1402"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:35:00+00:00"
+            },
+            "temperature": {
+                "N": "29.01"
+            },
+            "humidity": {
+                "N": "43.43"
+            },
+            "air_quality": {
+                "N": "120"
+            },
+            "co2": {
+                "N": "1301"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:36:00+00:00"
+            },
+            "temperature": {
+                "N": "37.82"
+            },
+            "humidity": {
+                "N": "72.71"
+            },
+            "air_quality": {
+                "N": "98"
+            },
+            "co2": {
+                "N": "773"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:37:00+00:00"
+            },
+            "temperature": {
+                "N": "24.71"
+            },
+            "humidity": {
+                "N": "67.96"
+            },
+            "air_quality": {
+                "N": "132"
+            },
+            "co2": {
+                "N": "1393"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:38:00+00:00"
+            },
+            "temperature": {
+                "N": "22.66"
+            },
+            "humidity": {
+                "N": "57.12"
+            },
+            "air_quality": {
+                "N": "86"
+            },
+            "co2": {
+                "N": "1336"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:39:00+00:00"
+            },
+            "temperature": {
+                "N": "37.61"
+            },
+            "humidity": {
+                "N": "51.43"
+            },
+            "air_quality": {
+                "N": "93"
+            },
+            "co2": {
+                "N": "728"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:40:00+00:00"
+            },
+            "temperature": {
+                "N": "22.4"
+            },
+            "humidity": {
+                "N": "44.08"
+            },
+            "air_quality": {
+                "N": "119"
+            },
+            "co2": {
+                "N": "785"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:41:00+00:00"
+            },
+            "temperature": {
+                "N": "36.69"
+            },
+            "humidity": {
+                "N": "80.44"
+            },
+            "air_quality": {
+                "N": "106"
+            },
+            "co2": {
+                "N": "859"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:42:00+00:00"
+            },
+            "temperature": {
+                "N": "32.91"
+            },
+            "humidity": {
+                "N": "53.78"
+            },
+            "air_quality": {
+                "N": "119"
+            },
+            "co2": {
+                "N": "528"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:43:00+00:00"
+            },
+            "temperature": {
+                "N": "23.96"
+            },
+            "humidity": {
+                "N": "80.61"
+            },
+            "air_quality": {
+                "N": "80"
+            },
+            "co2": {
+                "N": "1094"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:44:00+00:00"
+            },
+            "temperature": {
+                "N": "38.36"
+            },
+            "humidity": {
+                "N": "47.48"
+            },
+            "air_quality": {
+                "N": "62"
+            },
+            "co2": {
+                "N": "1110"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:45:00+00:00"
+            },
+            "temperature": {
+                "N": "29.39"
+            },
+            "humidity": {
+                "N": "69.24"
+            },
+            "air_quality": {
+                "N": "115"
+            },
+            "co2": {
+                "N": "946"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:46:00+00:00"
+            },
+            "temperature": {
+                "N": "32.31"
+            },
+            "humidity": {
+                "N": "59.04"
+            },
+            "air_quality": {
+                "N": "133"
+            },
+            "co2": {
+                "N": "1421"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:47:00+00:00"
+            },
+            "temperature": {
+                "N": "31.8"
+            },
+            "humidity": {
+                "N": "46.97"
+            },
+            "air_quality": {
+                "N": "146"
+            },
+            "co2": {
+                "N": "501"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:48:00+00:00"
+            },
+            "temperature": {
+                "N": "30.84"
+            },
+            "humidity": {
+                "N": "72.91"
+            },
+            "air_quality": {
+                "N": "85"
+            },
+            "co2": {
+                "N": "872"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:49:00+00:00"
+            },
+            "temperature": {
+                "N": "29.33"
+            },
+            "humidity": {
+                "N": "79.6"
+            },
+            "air_quality": {
+                "N": "119"
+            },
+            "co2": {
+                "N": "1138"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:50:00+00:00"
+            },
+            "temperature": {
+                "N": "27.34"
+            },
+            "humidity": {
+                "N": "74.86"
+            },
+            "air_quality": {
+                "N": "111"
+            },
+            "co2": {
+                "N": "1019"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:51:00+00:00"
+            },
+            "temperature": {
+                "N": "27.26"
+            },
+            "humidity": {
+                "N": "54.19"
+            },
+            "air_quality": {
+                "N": "138"
+            },
+            "co2": {
+                "N": "1213"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:52:00+00:00"
+            },
+            "temperature": {
+                "N": "27.03"
+            },
+            "humidity": {
+                "N": "40.98"
+            },
+            "air_quality": {
+                "N": "142"
+            },
+            "co2": {
+                "N": "1180"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:53:00+00:00"
+            },
+            "temperature": {
+                "N": "37.99"
+            },
+            "humidity": {
+                "N": "66.83"
+            },
+            "air_quality": {
+                "N": "79"
+            },
+            "co2": {
+                "N": "1130"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:54:00+00:00"
+            },
+            "temperature": {
+                "N": "31.67"
+            },
+            "humidity": {
+                "N": "54.09"
+            },
+            "air_quality": {
+                "N": "35"
+            },
+            "co2": {
+                "N": "811"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:55:00+00:00"
+            },
+            "temperature": {
+                "N": "26.88"
+            },
+            "humidity": {
+                "N": "55.2"
+            },
+            "air_quality": {
+                "N": "117"
+            },
+            "co2": {
+                "N": "976"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:56:00+00:00"
+            },
+            "temperature": {
+                "N": "29.51"
+            },
+            "humidity": {
+                "N": "66.75"
+            },
+            "air_quality": {
+                "N": "165"
+            },
+            "co2": {
+                "N": "984"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:57:00+00:00"
+            },
+            "temperature": {
+                "N": "35.49"
+            },
+            "humidity": {
+                "N": "80.11"
+            },
+            "air_quality": {
+                "N": "78"
+            },
+            "co2": {
+                "N": "1174"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:58:00+00:00"
+            },
+            "temperature": {
+                "N": "23.44"
+            },
+            "humidity": {
+                "N": "59.23"
+            },
+            "air_quality": {
+                "N": "120"
+            },
+            "co2": {
+                "N": "595"
+            }
+        },
+        {
+            "device_id": {
+                "S": "IoT_Sensor_001"
+            },
+            "timestamp": {
+                "S": "2026-10-14T09:59:00+00:00"
+            },
+            "temperature": {
+                "N": "35.91"
+            },
+            "humidity": {
+                "N": "70.3"
+            },
+            "air_quality": {
+                "N": "114"
+            },
+            "co2": {
+                "N": "730"
             }
         }
     ],
-    "Count": 2,
-    "ScannedCount": 2,
-    "ConsumedCapacity": null
+    "Count": 120,
+    "ScannedCount": 120
 }
